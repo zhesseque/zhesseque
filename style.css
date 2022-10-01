@@ -2,29 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 @media screen and ((min-width: 768px) and (max-width: 1023px))
-body {
-    font-size: 1em;
-}
-
-@media screen and ((min-width: 768px) and (max-width: 1023px))
-div.banner {
-    font-size: 2em;
-}
-
-@media screen and ((min-width: 768px) and (max-width: 1023px))
-footer {
-    font-size: 2em;
-}
-
-@media only screen and (max-width: 600px) {
   body {
     font-size: 1em;
   }
   div.banner {
     font-size: 2em;
   }
+
   footer {
     font-size: 2em;
+  }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.5em;
+  }
+  div.banner {
+    font-size: 0.5em;
+  }
+  footer {
+    font-size: 0.5em;
+  }
+  #img {
+  width: 100%;
+  height: auto;
+  }
+  .banner-area {
+  width: 100%;
+  height: auto; 
   }
 }
 
