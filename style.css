@@ -15,13 +15,13 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   div.banner {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   footer {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   #gphoto {
   width: 100%;
