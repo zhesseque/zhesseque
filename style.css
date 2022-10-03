@@ -12,8 +12,20 @@
   footer {
     font-size: 2em;
   }
+  .banner-area {
+    height:  auto;
+  }
+  .map {
+    height:  auto;
+  }
 
 @media only screen and (max-width: 600px) {
+  .banner-area {
+    height:  auto;
+  }
+  .map {
+    height:  auto;
+  }
   body {
     font-size: 1em;
   }
