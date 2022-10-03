@@ -14,17 +14,29 @@
   }
   .banner-area {
     height:  auto;
+    width:  50%;
   }
   .map {
     height:  auto;
+    width:  50%;
   }
 
 @media only screen and (max-width: 600px) {
+  #gphoto {
+    height:  auto;
+    width:  50%;
+  }
+  #footer {
+    display: absolute;
+    background-color: black;
+    color:  white;
+  }
   .banner-area {
     height:  auto;
   }
   .map {
     height:  auto;
+    width:  50%;
   }
   body {
     font-size: 1em;
