@@ -266,6 +266,74 @@ nav a:hover::before {
 }
 
 @media screen and ((min-width: 768px) and (max-width: 1023px)) {
+  div.banner {
+    font-size: 1.5em;
+    position:  absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:  center;
+  }
+  nav li {
+    display: block;
+    padding-right: 8%;
+  }
+  .hamburger{
+    display:  block;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity:  0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .menu {
+    position:  fixed;
+    left:  -100%;
+    top:  20px;
+    gap:  0;
+    flex-direction: column;
+    background-color:  black;
+    width: 100%;
+    text-align:  center;
+    transition:  0.3s;
+  }
+   .nav-item {
+    margin:  16px 0;
+  }
+  .menu.active{
+    left:  0;
+  }
+  nav {
+    height: auto;
+    justify-content: left;
+  }
+  
+  .signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5em;
+  }
+  .logo img {
+    width: auto;
+    height: 32px;
+  }
+  
+  .main_content {
+    width: 100%;
+    font-size: 0.8em;
+  }
+  [id="task_box"] {
+  display: block;
+  }
+  #pict1 {
+    max-width: 100%;
+    height: 20vh ;
+  }
   body {
     font-size: 1em;
   }
@@ -283,7 +351,7 @@ nav a:hover::before {
   }
 }
 
-/* Mobile */
+/* phone */
 @media screen and (max-width: 768px) {
   div.banner {
     font-size: 1.5em;
@@ -294,7 +362,8 @@ nav a:hover::before {
     text-align:  center;
   }
   nav li {
-    display:block;
+    display: block;
+    padding-right: 15%;
   }
   .hamburger{
     display:  block;
@@ -343,7 +412,7 @@ nav a:hover::before {
   
   #pict1 {
     max-width: 100%;
-    height: auto ;
+    height: 20vh;
   }
 
   [id="task_box"] {
