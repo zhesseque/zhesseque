@@ -352,8 +352,10 @@ nav a:hover::before {
   }
 }
 
-/* phone */
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
   div.banner {
     font-size: 1.5em;
     position:  absolute;
@@ -365,9 +367,41 @@ nav a:hover::before {
   nav li {
     display: block;
   }
+  
+  #task h2, #requirements h2, #submission h2, #grading h2 {
+    font-size: 1.5em;
+  }
+  #hr3 {
+    font-size: 1.5em;
+  }
+
+  .contracts {
+    font-size: 1em;
+  }
+  .main_content {
+    width: 100%;
+    font-size: 0.8em;
+  }
+
+  #grading {
+    font-size: 0.8em;
+  }
+  #submission {
+    font-size: 0.8em;
+  }
+  #requirements {
+    font-size: 0.8em;
+  }
+  #task {
+    font-size: 0.8em;
+  }
+  .aside {
+    font-size: 0.8em;
+  }
   .hamburger{
     display:  block;
   }
+
   .hamburger.active .bar:nth-child(2){
     opacity:  0;
   }
@@ -413,7 +447,7 @@ nav a:hover::before {
   
   #pict1 {
     max-width: 100%;
-    height: 20vh;
+    height: 12vh;
   }
 
   [id="task_box"] {
@@ -451,12 +485,7 @@ nav a:hover::before {
   background-color: black;
   color:  white;
   }
-  #footer h5 {
-  font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  margin-bottom: 15px;
-  }
+
   footer iframe {
     margin-top: 1em;
     width: 15vh;
