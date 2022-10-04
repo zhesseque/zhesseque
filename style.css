@@ -398,10 +398,25 @@ nav a:hover::before {
   .aside {
     font-size: 0.8em;
   }
+  #main-heading {
+    font-size: 1.5em;
+  }
+  .contacts h5 {
+    font-size: 1.5em;
+  }
+  .contacts {
+    font-size: 0.8em;
+  }
+  #deadline {
+    font-size: 0.8em;
+  }
+  #sdc {
+    font-size: 0.8em;
+  }
   .hamburger{
     display:  block;
   }
-
+  
   .hamburger.active .bar:nth-child(2){
     opacity:  0;
   }
