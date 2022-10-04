@@ -363,7 +363,7 @@ nav a:hover::before {
   }
   nav li {
     display: block;
-    padding-right: 15%;
+    padding-right: 12%;
   }
   .hamburger{
     display:  block;
@@ -459,6 +459,7 @@ nav a:hover::before {
   }
   footer iframe {
     margin-top: 1em;
-    padding-left: 0;
+    width: 15vh;
+    height: auto;
   }
 }
