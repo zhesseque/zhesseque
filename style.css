@@ -276,7 +276,7 @@ nav a:hover::before {
   }
   nav li {
     display: block;
-    padding-right: 8%;
+    text-align:  center;
   }
   .hamburger{
     display:  block;
@@ -302,7 +302,8 @@ nav a:hover::before {
     transition:  0.3s;
   }
    .nav-item {
-    margin:  16px 0;
+    margin: 10px 0;
+    padding-right: 8%;
   }
   .menu.active{
     left:  0;
@@ -363,7 +364,6 @@ nav a:hover::before {
   }
   nav li {
     display: block;
-    padding-right: 12%;
   }
   .hamburger{
     display:  block;
@@ -396,6 +396,7 @@ nav a:hover::before {
 
   .nav-item {
     margin:  16px 0;
+    padding-right: 12%;
   }
   .menu.active{
     left:  0;
@@ -419,7 +420,6 @@ nav a:hover::before {
   display: block;
   }
   
-
   nav {
     height: auto;
     justify-content: left;
