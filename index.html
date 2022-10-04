@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"> <!-- linking to CSS file -->
+  <link rel="stylesheet" href="styleyessen.css"> <!-- linking to CSS file -->
   <title>CSS Design</title>
 </head>
 <body>
@@ -20,13 +20,18 @@
         <img src="logo.png" alt="logo" width="80px" height="80px">
       </a>
       <ul class="menu">
-        <li><a class="active" href="#task">Task</a></li>
-        <li><a href="#requirements">Requirements</a></li>
-        <li><a href="#submission">Submission</a></li>
-        <li><a href="#grading">Grading</a></li>
-        <li><a href="#deadline">Deadline</a></li>
-        <li><a href="#">SignIn</a></li>
+        <li class="nav-item"><a class="active" href="#task">Task</a></li>
+        <li class="nav-item"><a class="nav-link" href="#requirements">Requirements</a></li>
+        <li class="nav-item"><a class="nav-link" href="#submission">Submission</a></li>
+        <li class="nav-item"><a class="nav-link" href="#grading">Grading</a></li>
+        <li class="nav-item"><a class="nav-link" href="#deadline">Deadline</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">SignIn</a></li>
       </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
 
   <!-- Main Content -->
@@ -318,5 +323,6 @@
       </ul>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
