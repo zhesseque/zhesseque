@@ -404,8 +404,11 @@ nav a:hover::before {
   .contacts h5 {
     font-size: 1.5em;
   }
-  .contacts {
+  .contacts  {
     font-size: 0.8em;
+  }
+  #footer {
+     font-size: 0.8em;
   }
   #deadline {
     font-size: 0.8em;
